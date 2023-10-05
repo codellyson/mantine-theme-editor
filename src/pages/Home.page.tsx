@@ -1,7 +1,3 @@
-import { Welcome } from '../Welcome/Welcome';
+import { Layout } from '@components/layout';
 
-export const HomePage = () => (
-  <div>
-    <Welcome />
-  </div>
-);
+export const HomePage = () => <Layout />;

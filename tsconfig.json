@@ -17,9 +17,10 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@test-utils": ["./test-utils"]
+      "@components/*": ["./src/components/*"],
+      "@test-utils": ["./test-utils"],
     }
   },
-  "include": ["src", "test-utils"],
+  // "include": ["src", "test-utils"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
